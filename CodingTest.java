@@ -16,6 +16,7 @@ import java.util.Scanner;
  * @since 2020-10-27
  */
 
+@SuppressWarnings("LossyEncoding")
 public class CodingTest {
 
 	private static final List<Integer> SAMPLE_LIST = List.of(11, 22, 33, 44, 55, 66, 77, 88, 99);
@@ -43,9 +44,9 @@ public class CodingTest {
 
 		// 3. Print Numbers with Fizz/Buzz/FizzBuzz for multiples of 3/5/both
 		// Write a program that prints the numbers from 1 to 100. But for multiples of
-		// three print “Fizz” instead of the number and for the multiples of five print
-		// “Buzz”. For numbers which are multiples of both three and five print
-		// “FizzBuzz”.
+		// three print ï¿½Fizzï¿½ instead of the number and for the multiples of five print
+		// ï¿½Buzzï¿½. For numbers which are multiples of both three and five print
+		// ï¿½FizzBuzzï¿½.
 		System.out.println(" 3. Print Numbers with Fizz/Buzz/FizzBuzz");
 
 		// 4. Fibonacci Series
@@ -60,8 +61,8 @@ public class CodingTest {
 		System.out.println(" 5. Reverse a string");
 
 		// 6. Reverse a sentence
-		// Write a function that will reverse a sentence (ex: “quick brown fox” -> “fox
-		// brown quick”)
+		// Write a function that will reverse a sentence (ex: ï¿½quick brown foxï¿½ -> ï¿½fox
+		// brown quickï¿½)
 		System.out.println(" 6. Reverse a sentence");
 
 		// 7. Return Max of a List
@@ -150,9 +151,9 @@ public class CodingTest {
 
 	// 3. Print Numbers with Fizz/Buzz/FizzBuzz for multiples of 3/5/both
 	// Write a program that prints the numbers from 1 to 100. But for multiples of
-	// three print “Fizz” instead of the number and for the multiples of five print
-	// “Buzz”. For numbers which are multiples of both three and five print
-	// “FizzBuzz”.
+	// three print ï¿½Fizzï¿½ instead of the number and for the multiples of five print
+	// ï¿½Buzzï¿½. For numbers which are multiples of both three and five print
+	// ï¿½FizzBuzzï¿½.
 	private void printFizz() {
 		System.out.print("Printing Buzzyy to " + SERIES_LIMIT + ": ");
 		for (int i = 0; i <= SERIES_LIMIT; i++) {
@@ -213,8 +214,8 @@ public class CodingTest {
 	}
 
 	// 6. Reverse a sentence
-	// Write a function that will reverse a sentence (ex: “quick brown fox” -> “fox
-	// brown quick”)
+	// Write a function that will reverse a sentence (ex: ï¿½quick brown foxï¿½ -> ï¿½fox
+	// brown quickï¿½)
 	private void reverseSentence(Scanner in) {
 		System.out.println("Enter a sentence to reverse: ");
 		String inputStr = in.nextLine();
